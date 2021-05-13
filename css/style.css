@@ -3423,6 +3423,9 @@ main.blog-standard {
   main.blog-standard .post-wrapper .content {
     padding:0.5rem;
   }
+  .peoples-comments ul {
+    padding:0;
+  }
 }
 main.blog-standard .other-post .post-info i {color:var(--orange);}
 main.blog-standard .xsm-text--gray.space { margin-right:0.5rem}
