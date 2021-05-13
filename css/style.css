@@ -1266,21 +1266,45 @@ section.events {
 
 .comments .comments-wrapper {
   background-color: white;
-  width: 25rem;
   padding: 2rem;
   box-sizing: border-box;
   position: relative;
+  height: 30rem;
 }
 
+.comments .comment-slide {
+  position:absolute;
+  opacity:0;
+  width: 80%;
+}
+
+.btns-slideshow {
+  position: absolute;
+  bottom:6%;
+}
+section.comments .container {
+  max-width:60rem;
+}
 .container.cm {
+  display:grid;
+  grid-template-columns: 1fr 1.5fr;
   margin:0 auto;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  gap:5rem;
 }
-
+@media (max-width:60rem) {
+  .container.cm {
+    grid-template-columns:1fr;
+  }
+}
+@media (max-width:500px){
+  .comments-wrapper,
+  .container.cm {
+    overflow-x:hidden;
+  }
+}
 .comments .comments-wrapper p {
-  line-height: 2rem;;
+  line-height: 2rem;
+  margin:0 0 1.5rem;
 }
 .comments .profile {
   display: flex;
@@ -1320,6 +1344,7 @@ section.events {
   background-color: var(--orange);
   cursor:pointer;
 }
+
 .comments .left::before {
   font-family: FontAwesome;
   content: '\f060';
@@ -1340,7 +1365,6 @@ section.events {
 .comments .img-wrapper img {
   width:100%;
 }
-
 /*SECTION CAREER*/
 section.career {
   background-color: var(--blue-light);
@@ -3649,4 +3673,25 @@ main.contact .contact-grid :nth-child(5) {
     display:flex;
     flex-direction: column;
   }
+}
+.scroll-top {
+  width:3rem;
+  height:3rem;
+  background-color: var(--blue-btn);
+  display:grid;
+  place-items: center;
+  position:fixed;
+  bottom: 5vw;
+  right: 5vw;
+  z-index: 9;
+  cursor:pointer;
+}
+.scroll-top i {
+  color:White;
+}
+html {
+  scroll-behavior: smooth;
+}
+.scroll-top:hover {
+  filter:brightness(120%);
 }
