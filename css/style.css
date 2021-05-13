@@ -1339,6 +1339,7 @@ section.comments .container {
   border-radius: 0;
   border:none;
   background-color: var(--blue-light);
+  outline:0;
 }
 .comments button:hover {
   background-color: var(--orange);
