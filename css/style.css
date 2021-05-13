@@ -611,7 +611,7 @@ section.popular-categories {
 .available-courses .courses .bg-right {
   width:100%;
   height: 13rem;
-  background-image: url(img/available-courses/2.jpg);
+  background-image: url(../img/available-courses/2.jpg);
   background-position-x: -3rem;
 }
 
@@ -1195,11 +1195,11 @@ section.events {
 }
 .events .card-small.card1 {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.5) 50%, rgba(21, 31, 55, 0) 100%),
-  url(img/events/02.jpg) center center / cover;
+  url(../img/events/02.jpg) center center / cover;
 }
 .events .card-small.card2 {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.5) 50%, rgba(21, 31, 55, 0) 100%),
-  url(img/events/03.jpg) center center / cover;
+  url(../img/events/03.jpg) center center / cover;
 }
 
 .events .container.events .card-small .no-border {
@@ -1255,7 +1255,7 @@ section.events {
 
 /*SECTION COMMENT*/
 .comments {
-  background-image: url(img/comments/bg.jpg);
+  background-image: url(../img/comments/bg.jpg);
   background-position-x: center;
   padding-bottom: 5rem;
 }
@@ -1445,7 +1445,7 @@ section.latest-news {
 .latest-news .sm-text::before {
   content: '';
   display: inline-block;
-  background: url("img/available-courses/profile.jpg");
+  background: url("../img/available-courses/profile.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 10rem;;
@@ -1488,7 +1488,7 @@ section.latest-news {
 
 /*FOOTER*/
 .footer {
-  background-image: url(img/footer/bg.png);
+  background-image: url(../img/footer/bg.png);
   padding:2rem 0;
 }
 .footer .container-ft {
@@ -1676,7 +1676,7 @@ section.latest-news {
 }
 /*ABOUT US*/
 .title-wrapper {
-  background-image: url(img/about-us/title.jpg);
+  background-image: url(../img/about-us/title.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height:28rem;
@@ -1859,28 +1859,28 @@ section.courses-wrapper .filtering-gallery-cards-wrapper {
       box-sizing: border-box;
     }
     section.courses-wrapper .cards-wrapper .card1 {
-      background-image: url(img/our-courses/business-studies.png);
+      background-image: url(../img/our-courses/business-studies.png);
     }
     section.courses-wrapper .cards-wrapper .card2 {
-      background-image: url(img/our-courses/basic-photography.png);
+      background-image: url(../img/our-courses/basic-photography.png);
     }
     section.courses-wrapper .cards-wrapper .card3 {
-      background-image: url(img/our-courses/graphic-design.png);
+      background-image: url(../img/our-courses/graphic-design.png);
     }
     section.courses-wrapper .cards-wrapper .card4 {
-      background-image: url(img/our-courses/marketing-strategy.png);
+      background-image: url(../img/our-courses/marketing-strategy.png);
     }
     section.courses-wrapper .cards-wrapper .card5 {
-      background-image: url(img/our-courses//medical-and-health.png);
+      background-image: url(../img/our-courses//medical-and-health.png);
     }
     section.courses-wrapper .cards-wrapper .card6 {
-      background-image: url(img/our-courses/mobile-ui.png);
+      background-image: url(../img/our-courses/mobile-ui.png);
     }
     section.courses-wrapper .cards-wrapper .card7 {
-      background-image: url(img/our-courses/product-engineering.png);
+      background-image: url(../img/our-courses/product-engineering.png);
     }
     section.courses-wrapper .cards-wrapper .card8 {
-      background-image: url(img/our-courses/web-development.png);
+      background-image: url(../img/our-courses/web-development.png);
     }
     
     section.courses-wrapper .card-info {
@@ -2163,7 +2163,7 @@ main.faq .heading-wrapper:focus ~ .answer-content {
   display:flex;
 }
 section.course-detail .answer-content .picture {
-  background-image: url('img/category/business-studies.png');
+  background-image: url('../img/category/business-studies.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -2551,11 +2551,11 @@ section.event-detail .card-small .content {
 }
 section.event-detail .card-small.card1 {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.5) 50%, rgba(21, 31, 55, 0) 100%),
-  url(img/events/02.jpg) center center / cover;
+  url(../img/events/02.jpg) center center / cover;
 }
 section.event-detail .card-small.card2 {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.5) 50%, rgba(21, 31, 55, 0) 100%),
-  url(img/events/03.jpg) center center / cover;
+  url(../img/events/03.jpg) center center / cover;
 }
 section.event-detail .card-small .no-border {
   background: none;
@@ -2803,28 +2803,28 @@ section.popular-courses-ID .overlay::after {
     width: 100%;
     height: 100%;
     background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.336) 60%, rgba(21, 31, 55, 0) 100%),
-  url(img/category/basic-photography.png) center center / cover;
+  url(../img/category/basic-photography.png) center center / cover;
     z-index: -1;
 }
 section.popular-courses-ID .overlay2::after {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.336) 60%, rgba(21, 31, 55, 0) 100%),
-  url(img/category/business-studies.png) center center / cover;
+  url(../img/category/business-studies.png) center center / cover;
 }
 section.popular-courses-ID .overlay3::after {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.336) 60%, rgba(21, 31, 55, 0) 100%),
-  url(img/category/mobile-ui.png) center center / cover;
+  url(../img/category/mobile-ui.png) center center / cover;
 }
 section.popular-courses-ID .overlay4::after {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.336) 60%, rgba(21, 31, 55, 0) 100%),
-  url(img/category/web-development.png) center center / cover;
+  url(../img/category/web-development.png) center center / cover;
 }
 section.popular-courses-ID .overlay5::after {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.336) 60%, rgba(21, 31, 55, 0) 100%),
-  url(img/category/marketing-strategy.png) center center / cover;
+  url(../img/category/marketing-strategy.png) center center / cover;
 }
 section.popular-courses-ID .overlay6::after {
   background:linear-gradient(0deg, #061a30 0%, rgba(13, 33, 47, 0.336) 60%, rgba(21, 31, 55, 0) 100%),
-  url(img/category/graphic-design.png) center center / cover;
+  url(../img/category/graphic-design.png) center center / cover;
 }
 
 section.popular-courses-ID .box {
